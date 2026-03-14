@@ -1,0 +1,58 @@
+.add-recipe-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.back-btn {
+  align-self: flex-start;
+  margin-left: 20px;
+  padding: 6px 12px;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-recipe-card {
+  background-color: #1c1c1c; /* dark shade like UserProfile */
+  color: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.add-recipe-card input,
+.add-recipe-card textarea,
+.add-recipe-card select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: none;
+  box-sizing: border-box;
+}
+
+.time-select input {
+  width: 60px;
+  margin-right: 5px;
+}
+
+.difficulty-select input {
+  margin-right: 5px;
+}
+
+.submit-btn {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2e7d32;
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}

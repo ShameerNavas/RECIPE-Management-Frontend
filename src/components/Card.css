@@ -1,0 +1,38 @@
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.edit-btn,
+.delete-btn,
+.view-more-btn {
+  flex: 1;               /* make all buttons equal width */
+  text-align: center;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 0;        /* same height */
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s;
+  margin: 0 4px;         /* spacing between buttons */
+}
+
+
+
+.delete-btn {
+  background-color: #43a047; /* green */
+}
+.edit-btn,
+.view-more-btn {
+  background-color: #66bb6a; /* light green */
+}
+
+/* Hover effects */
+.edit-btn:hover,
+.delete-btn:hover,
+.view-more-btn:hover {
+  opacity: 0.85;
+}

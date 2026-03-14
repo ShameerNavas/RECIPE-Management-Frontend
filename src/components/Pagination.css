@@ -1,0 +1,27 @@
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+  gap: 10px;
+}
+
+.page-btn {
+  padding: 8px 14px;
+  border: none;
+  background-color: #2e7d32; /* full dark green */
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.page-btn:hover:not(:disabled) {
+  background-color: #1b5e20; /* optional slightly darker green on hover */
+}
+
+.page-btn:disabled {
+  background-color: #2e7d32;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
