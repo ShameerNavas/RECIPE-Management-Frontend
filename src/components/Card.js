@@ -9,9 +9,7 @@ export default function Card({ title, image, author, recipeId, onEdit, onDelete,
   console.log("card data", title, image);
   console.log(recipeId);
 
-  const handleViewMore = () => {
-    navigate(`/recipe/${recipeId}`); // route to RecipeDetail.js
-  };
+ 
 
   return (
     <div className="card">

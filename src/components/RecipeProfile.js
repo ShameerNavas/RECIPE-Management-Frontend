@@ -9,11 +9,9 @@ import { useNavigate } from "react-router-dom";
 
 function RecipeProfile() {
   const navigate = useNavigate();
-const [editingRecipe, setEditingRecipe] = useState(null);
-const [editedData, setEditedData] = useState({});
 
   const [recipes, setRecipes] = useState([]);
-  const [errorMessage, setErrorMessage] = useState("");
+ 
 
   useEffect(() => {
   const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));

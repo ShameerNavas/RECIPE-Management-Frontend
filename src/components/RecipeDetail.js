@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
-import { useLocation,useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import axios from "axios";
-import Navbar from "./Navbar";
 import { useNavigate } from "react-router-dom";
 import "./RecipeDetail.css";
 

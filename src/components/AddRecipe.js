@@ -59,7 +59,7 @@ function AddRecipe() {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-   const user = JSON.parse(localStorage.getItem("loggedInUser"));
+    
 
 if (!id && (!user || !user.userId)) {
   alert("Please login first.");
