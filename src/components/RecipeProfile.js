@@ -11,7 +11,9 @@ function RecipeProfile() {
   const navigate = useNavigate();
 
   const [recipes, setRecipes] = useState([]);
- 
+  const [errorMessage, setErrorMessage] = useState("");
+const [editingRecipe, setEditingRecipe] = useState(null);
+const [editedData, setEditedData] = useState({});
 
   useEffect(() => {
   const loggedInUser = JSON.parse(localStorage.getItem("loggedInUser"));
@@ -20,7 +22,7 @@ function RecipeProfile() {
     return;
   }
 
-axios.get(`https://localhost:44325/api/User/RecipeProfile/${loggedInUser.userId}`)
+axios.get(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/RecipeProfile/${loggedInUser.userId}`)
 
     .then((response) => {
       const recipeArray = response.data.data || [];
@@ -47,7 +49,7 @@ const handleEdit = (id) => {
 
 const handleSaveEdit = (id) => {
   axios
-    .put(`https://localhost:44325/api/User/EditRecipe/${id}`, editedData)
+    .put(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/EditRecipe/${id}`, editedData)
     .then(() => {
       alert("Recipe updated successfully!");
       setEditingRecipe(null);
@@ -64,7 +66,7 @@ const handleSaveEdit = (id) => {
 const handleDelete = (id) => {
   if (window.confirm("Are you sure you want to delete this recipe?")) {
     axios
-      .delete(`https://localhost:44325/api/User/DeleteRecipe/${id}`)
+      .delete(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/DeleteRecipe/${id}`)
       .then(() => {
         alert("Recipe deleted successfully!");
         setRecipes((prev) => prev.filter((r) => r.recipeId !== id));

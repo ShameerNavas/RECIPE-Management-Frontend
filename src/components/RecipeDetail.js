@@ -11,7 +11,7 @@ export default function RecipeDetail() {
 
   useEffect(() => {
     console.log("Recipe ID from URL:", id);
-    axios.get(`https://localhost:44325/api/User/RecipeDetail/${id}`)
+    axios.get(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/RecipeDetail/${id}`)
 
       .then((response) => {
          console.log("API Response:", response.data);

@@ -22,7 +22,7 @@ function AddRecipe() {
   if (id) {
     // Editing mode → get existing recipe
     axios
-      .get(`https://localhost:44325/api/User/RecipeDetail/${id}`)
+      .get(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/RecipeDetail/${id}`)
       .then((res) => {
         if (res.data) {
           setFormData({

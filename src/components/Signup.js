@@ -24,7 +24,7 @@ function Signup() {
     };
 console.log(name,email,password)
     try {
-      var  response = await axios.post("https://localhost:44325/api/User/signup", user);
+      var  response = await axios.post("https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/signup", user);
       console.log("Registration success:", response.data);
       setErrorMessage("");
       navigate("/login"); // go to login page after success

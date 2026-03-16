@@ -13,7 +13,7 @@ function Feed() {
 
   function fetchRecipes() {
     axios
-      .get("https://localhost:44325/api/User/Feed")
+      .get("https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/Feed")
       .then((response) => {
         console.log("Response data:", response.data);
 

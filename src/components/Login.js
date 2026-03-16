@@ -15,7 +15,7 @@ function attemptLogin(e) {
   e.preventDefault();
 console.log("Login data sent:", { email, password });
 
-axios.post("https://localhost:44325/api/User/login", {
+axios.post("https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/login", {
  name: name,
   email: email,
   password: password

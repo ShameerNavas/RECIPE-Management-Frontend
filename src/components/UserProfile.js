@@ -19,7 +19,7 @@ function UserProfile() {
     }
 
     axios
-      .get(`https://localhost:44325/api/User/UserProfile/${userId}`)
+      .get(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/UserProfile/${userId}`)
       .then((response) => {
         setUser(response.data);
         setErrorMessage("");
@@ -43,7 +43,7 @@ function UserProfile() {
     }
 
     axios
-      .put(`https://localhost:44325/api/User/UpdatePassword/${user.userId}`, {
+      .put(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/UpdatePassword/${user.userId}`, {
         Password: password,
       })
       .then((response) => {
