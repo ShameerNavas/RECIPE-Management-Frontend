@@ -11,8 +11,13 @@ function RecipeProfile() {
   const navigate = useNavigate();
 
   const [recipes, setRecipes] = useState([]);
-  const [errorMessage, setErrorMessage] = useState("");
+ // eslint-disable-next-line no-unused-vars
+const [errorMessage, setErrorMessage] = useState("");
+
+// eslint-disable-next-line no-unused-vars
 const [editingRecipe, setEditingRecipe] = useState(null);
+
+// eslint-disable-next-line no-unused-vars
 const [editedData, setEditedData] = useState({});
 
   useEffect(() => {
@@ -47,6 +52,7 @@ const handleEdit = (id) => {
   navigate(`/add-recipe/${id}`);
 };
 
+// eslint-disable-next-line no-unused-vars
 const handleSaveEdit = (id) => {
   axios
     .put(`https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/EditRecipe/${id}`, editedData)

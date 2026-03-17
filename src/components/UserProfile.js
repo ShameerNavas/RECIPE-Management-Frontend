@@ -5,7 +5,8 @@ import axios from "axios";
 
 function UserProfile() {
   const [user, setUser] = useState(null);
-  const [errorMessage, setErrorMessage] = useState("");
+// eslint-disable-next-line no-unused-vars
+const [errorMessage, setErrorMessage] = useState("");
   const [password, setPassword] = useState(""); // ✅ new
   const [isEditing, setIsEditing] = useState(false); // ✅ new
 
