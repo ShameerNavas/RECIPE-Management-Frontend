@@ -51,6 +51,7 @@ src/
 │   └── Navbar.js
 ├── App.js
 ├── index.js
+
 ---
 
 ## ⚙️ Setup & Installation  
@@ -70,10 +71,17 @@ npm start
 
 ## 🔗 API Integration  
 
-The frontend communicates with the backend API:
+The frontend communicates with the backend API.
 
-https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User
--The base API URL is configured via environment variables.
+### Base URL  
+
+https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
+### Environment Variable  
+
+REACT_APP_API_URL=https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
+Used in code as:
+
+process.env.REACT_APP_API_URL
 ---
 
 ## 🌍 Deployment  
