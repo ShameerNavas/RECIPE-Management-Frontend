@@ -73,7 +73,7 @@ npm start
 The frontend communicates with the backend API:
 
 https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User
-The base API URL is configured via environment variables.
+-The base API URL is configured via environment variables.
 ---
 
 ## 🌍 Deployment  
