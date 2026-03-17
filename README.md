@@ -1,7 +1,7 @@
 # 📌 Recipe Management Web Application (Frontend)
 
 ## 🔗 Live Demo  
-👉 [https://your-app.netlify.app ](https://my-recipe-demo.netlify.app) 
+👉 [https://my-recipe-demo.netlify.app](https://my-recipe-demo.netlify.app)
 
 ## 🔗 Backend API  
 👉 https://github.com/ShameerNavas/RECIPE-Management-Backend  
@@ -41,16 +41,16 @@ It allows users to browse, create, edit, and manage recipes with a clean and res
 ## 📂 Project Structure  
 
 src/
- ├── components/
- │    ├── Login.js
- │    ├── Signup.js
- │    ├── Feed.js
- │    ├── RecipeProfile.js
- │    ├── AddRecipe.js
- │    ├── RecipeDetail.js
- │    └── Navbar.js
- ├── App.js
- └── index.js
+├── components/
+│   ├── Login.js
+│   ├── Signup.js
+│   ├── Feed.js
+│   ├── RecipeProfile.js
+│   ├── AddRecipe.js
+│   ├── RecipeDetail.js
+│   └── Navbar.js
+├── App.js
+├── index.js
 ---
 
 ## ⚙️ Setup & Installation  
@@ -70,9 +70,10 @@ npm start
 
 ## 🔗 API Integration  
 
-The frontend communicates with the backend using:
+The frontend communicates with the backend API:
 
-[https://your-azure-backend-url](https://my-recipe-demo.netlify.app)/api/User
+https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User
+The base API URL is configured via environment variables.
 ---
 
 ## 🌍 Deployment  
