@@ -40,17 +40,17 @@ It allows users to browse, create, edit, and manage recipes with a clean and res
 
 ## 📂 Project Structure  
 
-src/
-├── components/
-│   ├── Login.js
-│   ├── Signup.js
-│   ├── Feed.js
-│   ├── RecipeProfile.js
-│   ├── AddRecipe.js
-│   ├── RecipeDetail.js
-│   └── Navbar.js
-├── App.js
-├── index.js
+- src/
+  - components/
+    - Login.js
+    - Signup.js
+    - Feed.js
+    - RecipeProfile.js
+    - AddRecipe.js
+    - RecipeDetail.js
+    - Navbar.js
+  - App.js
+  - index.js
 
 ---
 
@@ -79,6 +79,7 @@ https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
 ### Environment Variable  
 
 REACT_APP_API_URL=https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
+
 Used in code as:
 
 process.env.REACT_APP_API_URL
