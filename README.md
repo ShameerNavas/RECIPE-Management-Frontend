@@ -76,11 +76,11 @@ npm start
 
 The frontend communicates with the backend API.
 
-### Base URL  
+### - Base URL  
 
 👉 https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
 
-### Environment Variable  
+### - Environment Variable  
 
 👉 REACT_APP_API_URL=https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
 
