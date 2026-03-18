@@ -56,16 +56,16 @@ It allows users to browse, create, edit, and manage recipes with a clean and res
 
 ## ⚙️ Setup & Installation  
 
-### Clone repository
+### -Clone repository
 git clone https://github.com/ShameerNavas/RECIPE-Management-Frontend.git
 
-### Navigate to project
+### -Navigate to project
 cd RECIPE-Management-Frontend
 
-### Install dependencies
+### -Install dependencies
 npm install
 
-### Run project
+### -Run project
 npm start
 
 ---
@@ -76,11 +76,11 @@ The frontend communicates with the backend API.
 
 ### Base URL  
 
-https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
+👉 https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
 
 ### Environment Variable  
 
-REACT_APP_API_URL=https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
+👉 REACT_APP_API_URL=https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net
 
 Used in code as:
 process.env.REACT_APP_API_URL
