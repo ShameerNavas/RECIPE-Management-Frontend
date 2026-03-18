@@ -38,19 +38,21 @@ It allows users to browse, create, edit, and manage recipes with a clean and res
 
 ---
 
-## 📂 Project Structure  
+## 📂 Project Structure
 
-- src/
-  - components/
-    - Login.js
-    - Signup.js
-    - Feed.js
-    - RecipeProfile.js
-    - AddRecipe.js
-    - RecipeDetail.js
-    - Navbar.js
-  - App.js
-  - index.js
+```
+src/
+├── components/
+│   ├── Login.js
+│   ├── Signup.js
+│   ├── Feed.js
+│   ├── RecipeProfile.js
+│   ├── AddRecipe.js
+│   ├── RecipeDetail.js
+│   └── Navbar.js
+├── App.js
+└── index.js
+```
 
 ---
 
