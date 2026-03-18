@@ -80,14 +80,14 @@ if (!id && (!user || !user.userId)) {
       if (id) {
         // Edit existing recipe
         await axios.put(
-          `https://localhost:44325/api/User/EditRecipe/${id}`,
+          `https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/EditRecipe/${id}`,
           recipeData
         );
         alert("Recipe updated successfully!");
       } else {
         // Add new recipe
         await axios.post(
-          "https://localhost:44325/api/User/add-recipe",
+          "https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/User/add-recipe",
           recipeData
         );
         alert("Recipe added successfully!");
