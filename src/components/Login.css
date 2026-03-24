@@ -10,11 +10,11 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  background-color: rgba(209, 193, 193, 0.9);
+  background-color: rgba(183, 169, 147, 0.9);
   padding: 25px;
   border-radius: 10px;
   width: 300px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px rgba(196, 194, 194, 0.2);
 }
 
 .login-form input {
@@ -53,7 +53,7 @@
     background-color: #2e7d32;
 }
 .error-message {
-  color: red;
+  color: rgb(15, 13, 13);
   margin-top: 10px;
   text-align: center;
   margin-bottom: 15px;
