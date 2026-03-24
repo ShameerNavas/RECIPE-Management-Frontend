@@ -14,7 +14,7 @@
   padding: 25px;
   border-radius: 10px;
   width: 300px;
-  box-shadow: 0 4px 8px rgba(196, 194, 194, 0.2);
+  box-shadow: 0 4px 8px rgba(239, 235, 235, 0.945);
 }
 
 .login-form input {
@@ -61,4 +61,19 @@
 .signup-title{
   text-align: center;
   margin-bottom: 20px;
+}
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ccc;
+}
+.small {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  color: #ab9a6f;
 }

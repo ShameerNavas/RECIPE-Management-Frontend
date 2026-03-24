@@ -46,25 +46,26 @@ axios.post("https://recipe-ducwabaegshtc8f7.westeurope-01.azurewebsites.net/api/
       {errorMessage?<div className="alert alert-danger">{errorMessage}</div>:''}
       <form className="login-form">
         <div className="form-group">
-              <label>Name:</label>
+             
               <input
-                type="text"
+                type="text" placeholder="Name"
                 className="form-control"
                 value={name}
                 onChange={(e) => setName(e.target.value)}
               />
             </div>
-        <input type="email" placeholder="Email" value={email}
+            
+        <input type="email" placeholder="Email" className="form-control" value={email}
                         onInput={(event)=>setEmail(event.target.value)}
                          required />
-        <input type="password" placeholder="Password" value={password}
+        <input type="password" placeholder="Password" className="form-control" value={password}
                         onInput={(event)=>setPassword(event.target.value)} required />
         <button type="submit" className="login-btn" onClick={attemptLogin} >Login</button>
 
 
 
       </form>
-      <small>Don't have an account?</small>
+      <small className="small">Don't have an account?</small>
       
 <Link to="/signup" className="signup-btn">Sign In</Link>
     </div>
