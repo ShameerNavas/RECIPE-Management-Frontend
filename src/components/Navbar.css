@@ -27,7 +27,7 @@
 
 .nav-links li:hover,
 .nav-links li.active {
-  background-color: #388e3c;
+  background-color: #caccca;
 
 }
 
@@ -62,7 +62,7 @@
 
 .search-bar button {
   padding: 8px 12px;
-  background-color: #2e7d32;
+  background-color: rgba(193, 191, 189, 0.9);
   color: white;
   border: none;
   border-radius: 0 5px 5px 0;

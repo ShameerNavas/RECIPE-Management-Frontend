@@ -6,10 +6,10 @@
 
 .profile-card {
   width: 400px;
-  background-color: #f9f9f9;
+  background-color: rgba(183, 169, 147, 0.9);
   border-radius: 12px;
   padding: 25px;
-  box-shadow: 0 0 10px rgba(183, 169, 147, 0.9);
+  box-shadow: 0 0 10px rgba(118, 111, 100, 0.9);
 }
 
 .profile-card h2 {
