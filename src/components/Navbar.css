@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #2e7d32;
+  background-color: rgba(149, 130, 100, 0.9);
   padding: 10px 20px;
   color: white;
   font-weight: bold;
@@ -32,9 +32,7 @@
 }
 
 .logout-btn {
-  background-color: rgb(182, 175, 145);
-   background-color: #195b1f30;
-
+  background-color: rgb(129, 125, 107);
   border: none;
   padding: 6px 12px;
   border-radius: 6px;

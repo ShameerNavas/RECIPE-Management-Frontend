@@ -17,7 +17,7 @@
 }
 
 .add-recipe-card {
-  background-color: #1c1c1c; /* dark shade like UserProfile */
+  background-color: rgba(183, 169, 147, 0.9); /* dark shade like UserProfile */
   color: white;
   padding: 25px;
   border-radius: 10px;

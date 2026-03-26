@@ -1,7 +1,7 @@
 .recipe-detail {
   max-width: 700px;
   margin: 40px auto;
-  background: #0c1c0c;
+  background: rgba(183, 169, 147, 0.9);
   color: white;
   padding: 30px;
   border-radius: 10px;
