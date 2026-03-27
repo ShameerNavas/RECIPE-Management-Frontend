@@ -56,11 +56,16 @@ src/
 
 ## 👨‍💻 Screenshots
 
-![Banner](./assets/Screenshot2026-03-24224227.png)
+<img width="1919" height="1091" alt="Screenshot 2026-03-24 224227" src="https://github.com/user-attachments/assets/cbaa97ec-1530-43cb-b57f-8d778002c578" />
 
-![Banner](./assets/Screenshot2026-03-24213326.png)
 
-![Banner](./assets/Screenshot2026-03-24213349.png)
+<img width="1919" height="1199" alt="Screenshot 2026-03-24 213326" src="https://github.com/user-attachments/assets/ac360374-54f1-42d8-bba6-4ef31f77d333" />
+
+
+<img width="1918" height="1196" alt="Screenshot 2026-03-24 213358" src="https://github.com/user-attachments/assets/7feb6089-981b-46ae-a940-9bfac98835ed" />
+
+
+
 
 ---
 
