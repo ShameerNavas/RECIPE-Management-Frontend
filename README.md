@@ -54,6 +54,14 @@ src/
 └── index.js
 ```
 
+## 👨‍💻 Screenshots
+
+![Banner](./assets/Screenshot2026-03-24224227.png)
+
+![Banner](./assets/Screenshot2026-03-24213326.png)
+
+![Banner](./assets/Screenshot2026-03-24213349.png)
+
 ---
 
 ## ⚙️ Setup & Installation  
