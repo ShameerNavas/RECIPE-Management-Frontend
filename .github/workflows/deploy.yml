@@ -1,0 +1,41 @@
+name: Build and Deploy .NET Backend to Azure
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    # 1️⃣ Get code from GitHub
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    # 2️⃣ Setup .NET
+    - name: Setup .NET
+      uses: actions/setup-dotnet@v3
+      with:
+        dotnet-version: '9.0.x'
+
+    # 3️⃣ Restore dependencies
+    - name: Restore dependencies
+      run: dotnet restore
+
+    # 4️⃣ Build project
+    - name: Build
+      run: dotnet build --configuration Release --no-restore
+
+    # 5️⃣ Publish project
+    - name: Publish
+      run: dotnet publish -c Release -o ./publish
+
+    # 6️⃣ Deploy to Azure App Service
+    - name: Deploy to Azure
+      uses: azure/webapps-deploy@v2
+      with:
+        app-name: recipe-ducwabaegshtc8f7   # 🔥 your app name
+        publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+        package: ./publish
