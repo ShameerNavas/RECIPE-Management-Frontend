@@ -1,7 +1,7 @@
 # 📌 Recipe Management Web Application (Frontend)
 
 ## 🔗 Live Demo  
-👉 [https://my-recipe-demo.netlify.app](https://my-recipe-demo.netlify.app)
+👉 [https://recipe-management-frontend-psi.vercel.app/](https://recipe-management-frontend-psi.vercel.app/)
 
 ## 🔗 Backend API  
 👉 https://github.com/ShameerNavas/RECIPE-Management-Backend  
@@ -57,9 +57,11 @@ src/
 ## 👨‍💻 Screenshots
 
 <img width="1919" height="1091" alt="Screenshot 2026-03-24 224227" src="https://github.com/user-attachments/assets/cbaa97ec-1530-43cb-b57f-8d778002c578" />
+ 
 
 
 <img width="1919" height="1199" alt="Screenshot 2026-03-24 213326" src="https://github.com/user-attachments/assets/ac360374-54f1-42d8-bba6-4ef31f77d333" />
+
 
 
 <img width="1918" height="1196" alt="Screenshot 2026-03-24 213358" src="https://github.com/user-attachments/assets/7feb6089-981b-46ae-a940-9bfac98835ed" />
